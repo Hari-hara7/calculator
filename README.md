@@ -1,4 +1,5 @@
-# SuperCalci - A Beautiful Calculator
+# SuperCalci - A Beautiful Calculator   
+visit  calci :git clone https://hari-hara7.github.io/calculator/
 
 SuperCalci is a modern and user-friendly calculator designed with simplicity, clarity, and a beautiful user interface. It supports basic arithmetic operations, advanced functions, and includes features like square root, trigonometric functions, cube, pi, and square.
 
