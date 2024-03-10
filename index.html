@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SuperCalci</title>
+</head>
+<body>
+   
+    <div class="calculator">
+        <h1>SuperCalci</h1>
+        <div class="display" id="display">0</div>
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendInput('%')">%</button>
+            <button onclick="deleteLast()">DEL</button>
+            <button onclick="appendInput('/')">÷</button>
+            <button onclick="appendInput('7')">7</button>
+            <button onclick="appendInput('8')">8</button>
+            <button onclick="appendInput('9')">9</button>
+            <button onclick="appendInput('*')">x</button>
+            <button onclick="appendInput('4')">4</button>
+            <button onclick="appendInput('5')">5</button>
+            <button onclick="appendInput('6')">6</button>
+            <button onclick="appendInput('-')">-</button>
+            <button onclick="appendInput('1')">1</button>
+            <button onclick="appendInput('2')">2</button>
+            <button onclick="appendInput('3')">3</button>
+            <button onclick="appendInput('+')">+</button>
+            <button onclick="appendInput('0')">0</button>
+            <button onclick="appendInput('.')">.</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="calculateSquareRoot()">√</button>
+            <button onclick="calculateTrigFunction('sin')">sin</button>
+            <button onclick="calculateTrigFunction('cos')">cos</button>
+            <button onclick="calculateTrigFunction('tan')">tan</button>
+            <button onclick="appendInput('^3')">x³</button>
+            <button onclick="appendInput('pi')">π</button>
+            <button onclick="appendInput('^2')">x²</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
